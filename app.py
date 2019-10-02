@@ -26,11 +26,11 @@ def callback():
     if (userText == 'ดีครับ') :
         sendText(user, 'สวัสดี')
     elif (userText == 'มึงชื่อไร') :
-        sendText(user,'โอม')
+         sendText(user,'โอม')
     elif (userText == 'ทำไรอยู่') :
-        sendText(user, 'ทำอะไรก็ได้กูไม')
+         sendText(user, 'ทำอะไรก็ได้กูไม')
     else :
-        sendText(user,'ขยะ')
+         sendText(user,'ขยะ')
     
     return '',200
 
